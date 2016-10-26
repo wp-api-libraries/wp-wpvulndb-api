@@ -5,9 +5,19 @@
  * @package WP-WPVULNDB-API
  */
 
+/*
+* Plugin Name: WP Vulnerabilities DB API
+* Plugin URI: https://github.com/wp-api-libraries/wp-wpvulndb-api
+* Description: Perform API requests to WP Vulnerabilities DB in WordPress.
+* Author: imFORZA
+* Version: 1.0.0
+* Author URI: https://www.imforza.com
+* GitHub Plugin URI: https://github.com/wp-api-libraries/wp-wpvulndb-api
+* GitHub Branch: master
+*/
+
 /* Exit if accessed directly. */
 if ( ! defined( 'ABSPATH' ) ) { exit; }
-
 
 /* Check if class exists. */
 if ( ! class_exists( 'WpVulndbAPI' ) ) {
