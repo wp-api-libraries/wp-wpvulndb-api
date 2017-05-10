@@ -9,9 +9,9 @@
 * Plugin Name: WP Vulnerabilities DB API
 * Plugin URI: https://github.com/wp-api-libraries/wp-wpvulndb-api
 * Description: Perform API requests to WP Vulnerabilities DB in WordPress.
-* Author: imFORZA
+* Author: WP API Libraries
 * Version: 1.0.0
-* Author URI: https://www.imforza.com
+* Author URI: https://wp-api-libraries.com
 * GitHub Plugin URI: https://github.com/wp-api-libraries/wp-wpvulndb-api
 * GitHub Branch: master
 */
