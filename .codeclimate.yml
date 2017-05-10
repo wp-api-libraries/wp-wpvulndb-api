@@ -1,3 +1,5 @@
+# CodeClimate Config
+# Version 1.0.0
 ---
 engines:
   csslint:
@@ -14,7 +16,7 @@ engines:
     enabled: true
     config:
       standard: "WordPress-Core,WordPress-Docs,WordPress-Extra"
-phpmd:
+  phpmd:
     enabled: true
     checks:
       Controversial/CamelCaseParameterName:
@@ -29,7 +31,6 @@ phpmd:
         enabled: false
   eslint:
     enabled: true
-    channel: "eslint-2"
   scss-lint:
     enabled: true
   markdownlint:
@@ -58,5 +59,7 @@ exclude_paths:
   - "**.txt"
   - "**-min.js"
   - "**-min.css"
+  - "**.min.js"
+  - "**.min.css"
   - "**.dist"
   - "**.sh"
